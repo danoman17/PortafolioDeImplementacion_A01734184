@@ -1,0 +1,8 @@
+Estadistica Modificaciones:
+
+Entregable 1:
+
+- En este caso se realizo una correccion al momento de calcular el ratio, de tal manera que no puede haber 0 en el denominador, solo nan, esto con ayuda de las funciones
+ de np.where() y np.nan.
+- se realizo una implementacion de la libreria statsmodels.stats.outliers_influence , de tal manera que se comprobo el resultado de la hat matrix y de los stardar residuals al momento de calcular los leverages y los outliers.
+- finalmente, al momento de calcular los stardar residuals, se cambio como variable dependiente el RNQ, en vez de R.
